@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o footer fique no final da página */
+}
+
+.custom-container {
+    max-width: 1200px; /* Ajuste a largura do container conforme necessário */
+}
+
+header {
+    z-index: 1000; /* Certifica-se de que o header está sempre acima de outros elementos */
+}
+
+main {
+    flex: 1; /* Permite que o main ocupe o espaço disponível */
+}
+
+h1, h2 {
+    font-family: 'Arial', sans-serif; /* Altere para a fonte que preferir */
+}
+
+.display-4 {
+    font-size: 3rem; /* Aumenta o tamanho da fonte do título */
+}
+
+.display-5 {
+    font-size: 2.5rem; /* Aumenta o tamanho da fonte do subtítulo */
+}
+
+.lead {
+    font-size: 1.25rem; /* Aumenta o tamanho da fonte do texto de destaque */
+}
+
+footer {
+    background-color: #6c757d; /* Cor correspondente à classe .secondary do Bootstrap */
+}
